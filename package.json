@@ -1,0 +1,48 @@
+{
+  "name": "passport-mixer",
+  "version": "1.0.2",
+  "description": "Mixer.com (OAuth) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "mixer",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixercommunity/passport-mixer"
+  },
+  "bugs": {
+    "url": "https://github.com/mixercommunity/passport-mixer"
+  },
+  "author": {
+    "name": "AlfW"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-mixer",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~1.x.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "maintainers": [
+    {
+      "name": "alfw"
+    },
+    {
+      "name": "mixercommunity"
+    }
+  ]
+}
